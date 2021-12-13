@@ -1,0 +1,389 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: red;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+}
+/* background setcion */
+.background_Section{
+   background-image: url('../images/back1.jpg');
+   -webkit-background-size: cover;
+   background-repeat: no-repeat;
+   /* background-position-y: center; */
+   /* height: 80vh; */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-position: center;
+   /* background-position-x: 100%; */
+   /* width:200vh; */
+  
+}
+.paragraphSection{
+    /* position: absolute; */
+    margin-top: 30px;
+    width: 300px;
+    color: rgba(197, 197, 197, 0.788);
+    margin-left: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+}
+.titleWelcome{
+    font-size:6vh;
+    font-weight: 700;
+    width:600px;
+}
+.multiImages{
+    background-color: #22577E;
+    opacity: 0.9;
+    padding-top: 10px;
+  
+}
+.multiImagesItem{
+    width: 360px;
+    display: flex;
+    justify-content: space-around;
+    height: 15vh;
+}
+.paraItem{
+    color: white;
+    padding-left: 6px;
+}
+.titleHello{
+    letter-spacing: 1.5px;
+}
+.titlepara,.titleEnd{
+    font-size: 1.5vh;
+}
+/* events section*/
+.titleEvent{
+    color: #064663;
+    font-size: 5vh;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.events{
+    display: flex;
+    justify-content: space-around;
+}
+.paragEvent{
+    display: block;
+    padding-left: 50px;
+}
+.titlelatestnew,.titlesec{
+    color: #064663;
+    font-size: 4.5vh;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.imgEvent img {
+   width: 500px;
+}
+.titlepara1, .titleparag2{
+   font-size: 2.5vh;
+   font-weight: 500;
+}
+/* box shadow of paragraph*/
+.titleparag2{
+    width: 600px;
+    height: 200px;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 2px 2px 5px 5px rgb(151, 151, 151);
+}
+/* vertical line*/
+.v1{
+    /* margin-top: 5px; */
+    position: absolute;
+    border-left: 7px solid #064663;
+    height: 190px;
+    margin-left: -20px;
+}
+/* Our Aviable Unit section*/
+.OurAvailableUnits{
+    position: relative;
+    padding-top: 40px;
+    margin-top: 100px;
+    background-color: #064663;
+    height:fit-content;
+    color: white;
+    text-align: center;
+    display: block; 
+    flex-wrap: wrap;
+}
+ .paragAviable2{
+    position: absolute;
+    left: 25%;
+} 
+.itemsAvailable{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 60px;
+   
+}
+.OurAvailableUnits-item1,.OurAvailableUnits-item2,.OurAvailableUnits-item3,.OurAvailableUnits-item4{
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    margin-bottom: 25px;
+}
+.titleApart{
+    font-weight: 600;
+    display: inline-block;
+    color: black;
+    padding-top: 20px;
+    text-align: center;
+}
+.icons{
+    padding-top: 20px;
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
+/* Our Customer Section */
+.CustomerSection{
+    position: absolute;
+    margin: 100px 0px;
+    color: black;
+}
+.customerTit,.titleYou{
+  font-weight: 700;
+}
+.titleCus{
+    display: flex;
+    text-align: center;
+   margin-left: 480px;
+   text-transform: uppercase;
+}
+.titleYou{
+    color: #064663;
+    padding-left: 10px;
+}
+.CustomerItems{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.CustomerItem1,.CustomerItem2,.CustomerItem3{
+    display: block;
+    text-align: left;
+   
+}
+.CustomerItem1 span ,.CustomerItem2 span ,.CustomerItem3 span{
+    color: rgb(184, 184, 184);
+}
+.CustomerItem1 p ,.CustomerItem2 p ,.CustomerItem3 p{
+    padding-top: 20px;
+    font-weight: 600;
+}
+.CustomerItem1 a ,.CustomerItem2 a ,.CustomerItem3 a{
+    
+    text-align: right;
+    text-decoration: none;
+    color: black;
+    right: 0;
+    font-weight: 700;
+}
+/* btn Read More */
+.btnReadMore{
+    margin-top: 40px;
+    background-color:  #064663;
+    color: white;
+    border-radius: 1.8rem;
+    text-align: center;
+    width: 180px;
+    height: 60px;
+}
+/* Customer icons*/
+.OurCustomer{
+    color: #064663;
+    text-align: center;
+    position: absolute;
+    margin-top: 800px;
+    left: 37%;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.variety-icons{
+    background-color: rgb(207, 207, 207);
+    position: absolute;
+    margin-top: 880px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+/*  footer section*/
+.footer-content{
+    left: 0;
+    position: absolute;
+    background-color: black;
+    color: white;
+    margin-top: 1120px;
+    width: 100%;
+    padding: 10px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.visitUs,.Workwithus,.followus,.info{
+    display: block;
+    align-items: center;
+}
+.VisitTit,.followTit,.infoTit,.WorkTit{
+    color: blue;
+}
+.VisitPar{
+    text-decoration: none;
+    color: white;
+}
+.btnSignUp{
+    background-color: rgb(197, 62, 62);
+    color: white;
+    width: 100px;
+    height: 40px;
+}
+@media only screen and (min-width: 992px){
+   
+   .navbar-expand-lg .navbar-nav{
+       margin-top: 20px;
+       gap: 23px;
+    }
+}
+@media  only screen and (max-width: 700px){
+    /*background section*/
+    .titleWelcome{
+        font-size:2vh;
+        font-weight: 700;
+        width:120px;
+    }
+    .multiImagesItem img{
+        width:75px;
+        height: 55px;
+    }
+    .multiImagesItem{
+        width: 160px;
+        padding-left: 3px;
+    }
+    .paraItem{
+        width: 200px;
+        font-size: 1.3vh;
+    }
+    .titleWelcome{
+        font-size: 2.5vh;
+    }
+    .titlepara,.titleEnd{
+        font-size: 1.1vh;
+    }
+    /*events section*/
+    .titleEvent{
+        font-size: 2.5vh;
+        margin-left: 0px;
+    }
+    .events{
+        display: block;
+    }
+    .imgEvent img{
+        width: 260px;
+    }
+    .paragEvent{
+        display: block;
+        padding-left: 0px;
+    }
+    .titlelatestnew,.titlesec{
+        font-size: 2.5vh;
+    }
+    .titlepara1, .titleparag2{
+        font-size: 1.6vh;
+    }
+    /* border section of paragraph*/
+    .titleparag2{
+        width: 310px;
+        height: 180px;
+        padding: 15px;
+        background-color: white;
+        box-shadow: 2px 2px 5px 5px rgb(151, 151, 151);
+    }
+    /* our aviable units */
+    .paragAviable2{
+        left: 5%;
+    } 
+    /* Customer section*/
+    .titleCus{
+        margin-left: 20px;
+    }
+    img{
+        width: 90px;
+        height: 80px;
+    }
+    .OurCustomer{
+        left: 14%;
+    }
+    /*  footer */
+    .footer-content{
+        display: block;
+    }
+    .visitUs,.followus,.info{
+        margin-top: 50px;
+    }
+}
+@media  only screen and (min-width: 700px) and (max-width:1025px){
+    /* background section*/
+  
+    /*events section*/
+    .titleEvent{
+        font-size: 2.5vh;
+        margin-left: 0px;
+    }
+    .events{
+        display: block;
+    }
+    .imgEvent img{
+        width: 660px;
+        margin-left: 0px;
+    }
+    .paragEvent{
+        display: block;
+        padding-left: 0px;
+    }
+    .titlelatestnew,.titlesec{
+        font-size: 2.5vh;
+    }
+    .titlepara1, .titleparag2{
+        font-size: 1.7vh;
+    }
+    /* border section of paragraph*/
+    .titleparag2{  
+        width: 620px;
+        height: 260px;
+        padding: 15px;
+        background-color: white;
+        box-shadow: 2px 2px 5px 5px rgb(151, 151, 151);
+    }
+    .titleCus{
+        margin-left: 90px;
+        text-align: center;
+    }
+    img{
+        width: 200px;
+        height: 180px;
+    }
+}
